@@ -8,6 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <StackPanel VerticalAlignment="Top" Orientation="Horizontal" Height="100">
+            <Button Click="Button_Click">open</Button>
+        </StackPanel>
+        <Grid RelativePanel.AlignBottomWithPanel="True" Margin="0,100,0,0">
+            <MediaElement Name="mediaPlayer" Source="C:\Users\joe\AppData\Local\Veamcast\joe.dean@veamcast.com\Packages\In\610ca91ba95d40dda5d73ee1b3317711\Grace VanderWaal - Beautiful Thing - Quarterfinals - America's Got Talent - August 23, 2016.mp4"/>
+        </Grid>
     </Grid>
 </Page>

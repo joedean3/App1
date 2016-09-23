@@ -80,6 +80,9 @@ namespace App1
                 // make the app full screen
                 ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.FullScreen;
 
+                // adding this to testbranch
+
+
                 // Ensure the current window is active
                 Window.Current.Activate();
             }

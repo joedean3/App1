@@ -77,6 +77,7 @@ namespace App1
                     rootFrame.Navigate(typeof(MainPage), e.Arguments);
                 }
 
+                // make the app full screen
                 ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.FullScreen;
 
                 // Ensure the current window is active

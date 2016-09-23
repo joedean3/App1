@@ -82,6 +82,9 @@ namespace App1
 
                 // adding this to testbranch
 
+                // another line added to testbranch
+                // this is a third
+
 
                 // Ensure the current window is active
                 Window.Current.Activate();
